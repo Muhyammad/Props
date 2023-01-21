@@ -1,0 +1,75 @@
+html {
+  background: url(https://mobimg.b-cdn.net/v3/fetch/ec/ecc8608ebb9732b0a74cc79493f1a31f.jpeg);
+  user-select: none;
+}
+
+span {
+  margin-left: 10px;
+  color: gray;
+  font-size: 30px;
+  text-decoration: line-through;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  margin: 0 10;
+}
+
+button  {
+  margin-top: 15px;
+  width: 300px;
+  border-radius: 50px;
+  font-size: 20px;
+  background-color: black;
+  border: solid 1px gray;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+
+
+.p1 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin: 0 0;
+}
+
+.App {
+  margin-top: 40px;
+  display: flex;
+}
+
+img {
+  width: 280px;
+  height: 250px;
+  border-radius: 50px;
+}
+
+.things {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-gap: 40px;
+  border-radius: 30px;
+  width: auto;
+  height: auto;
+}
+
+.monkey {
+  text-align: center;
+}
+
+.lengthblock {
+  margin-left: 220px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.border {
+  border-bottom: solid 2px gray;
+  padding-bottom: 10px;
+  margin: 10 10;
+  cursor: pointer;
+}
